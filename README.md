@@ -13,7 +13,7 @@ Like bit.ly, but fully offline. Zero Redis. Zero external services.
 ### Download & Run
 
 **Windows**  
-Download → [shorty.exe](https://github.com/sabari7320/cli-url-shortner/releases/tag/v1.0.0)  
+Download → [shorty.exe](https://github.com/sabari7320/cli-url-shortner/releases/download/v1.0.0/shorty.exe)  
 Double-click or run in terminal.
 
 **Linux & macOS** (run from source – 5 seconds)
