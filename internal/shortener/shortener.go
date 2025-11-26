@@ -12,7 +12,7 @@ func Create(longURL string) (string, error) {
 
 	var count int64
 	db.DB.Model(&models.URL{}).Count(&count)
-	shortCode := base62.EncodeUint64(uint64(count + 1))
+	shortCode := base62.EncodeUint64(uint64(count + 9000000000))
 
 	url := models.URL{
 		LongUrl:   longURL,
